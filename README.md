@@ -15,7 +15,7 @@ Set up local Ethereum network:
   * `npx hardhat node` to start a local Ethereum network instance, defaults to using localhost:8545.
   * Add local Ethereum network to your Metamask extension, and configure your wallet to connect to it.
   * For assstance, see the "Adding custom network to Metamask manually" section of [this tutorial](https://support.ledger.com/article/8381031270301-zd).
-  * ![Hardhat should automatically set your Chain ID to 31337](../../Desktop/Screenshot%202025-04-14%20at%201.53.35 PM.png)
+  * ![Hardhat should automatically set your Chain ID to 31337](./readme_metamask_screenshot.png)
 
 
 Deploy Crowdfunding smart contract:
@@ -23,8 +23,10 @@ Deploy Crowdfunding smart contract:
   * In a separate terminal window, `npx hardat ignition deploy ./ignition/modules/Crowdfunding.js --network localhost` to deploy the Crowdfunding smart contract. The last part of the terminal output will show a "Deployed Addresses" section containing the address of the deployed Crowdfunding smart contract.
 
 Set up React app:
-  * `cd webapp` to navigate to the simple react app.
+  * `cd fundus_webapp` to navigate to the simple react app.
   * `npm install` to install dependencies.
+  * If you are running on a Unix-like OS, run `export NODE_OPTIONS=--openssl-legacy-provider`.
+  * `npm start` to start web app on localhost:3000.
   * `npm start` to start web app on localhost:3000.
 
 ---
