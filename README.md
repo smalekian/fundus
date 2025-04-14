@@ -15,7 +15,7 @@ Set up local Ethereum network:
   * `npx hardhat node` to start a local Ethereum network instance, defaults to using localhost:8545.
   * Add local Ethereum network to your Metamask extension, and configure your wallet to connect to it.
   * For assstance, see the "Adding custom network to Metamask manually" section of [this tutorial](https://support.ledger.com/article/8381031270301-zd).
-  * ![Hardhat should automatically set your Chain ID to 31337](./readme_metamask_screenshot.png)
+  * ![Hardhat should automatically set your Chain ID to 31337](https://gist.github.com/smalekian/6336662f1d647bfe574927ee383a5d0c.js)
 
 
 Deploy Crowdfunding smart contract:
